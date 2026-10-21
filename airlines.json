@@ -133,6 +133,25 @@
         "slug": "air-algerie"
     },
     {
+        "name": "Air Arabia",
+        "iata": "G9",
+        "icao": "ABY",
+        "country": "AE",
+        "website": "https://www.airarabia.com",
+        "branding": {
+            "primary_color": "#ed1b48",
+            "colors": {
+                "icon": [
+                    "#ff0041"
+                ],
+                "logo": [
+                    "#ed1b48"
+                ]
+            }
+        },
+        "slug": "air-arabia"
+    },
+    {
         "name": "Air Astana",
         "iata": "KC",
         "icao": "KZR",
@@ -148,6 +167,27 @@
             }
         },
         "slug": "air-astana"
+    },
+    {
+        "name": "Air Berlin",
+        "iata": "AB",
+        "icao": "BER",
+        "country": "DE",
+        "website": "https://www.airberlin.com",
+        "alliance": "oneworld",
+        "defunct": true,
+        "branding": {
+            "primary_color": "#cc2234",
+            "colors": {
+                "icon": [
+                    "#cc1f2f"
+                ],
+                "logo": [
+                    "#cc2234"
+                ]
+            }
+        },
+        "slug": "air-berlin"
     },
     {
         "name": "Air Canada",
@@ -184,6 +224,9 @@
             "colors": {
                 "icon": [
                     "#ed1c24"
+                ],
+                "logo": [
+                    "#e60012"
                 ]
             }
         },
@@ -469,6 +512,33 @@
         "slug": "all-nippon-airways"
     },
     {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL",
+        "country": "US",
+        "website": "https://www.aa.com",
+        "alliance": "oneworld",
+        "branding": {
+            "primary_color": "#0078d2",
+            "colors": {
+                "icon": [
+                    "#19aade",
+                    "#e02527",
+                    "#71251d",
+                    "#e8ebee"
+                ],
+                "logo": [
+                    "#eb2023",
+                    "#6c221f",
+                    "#e7ebee",
+                    "#05aee9",
+                    "#334357"
+                ]
+            }
+        },
+        "slug": "american-airlines"
+    },
+    {
         "name": "Asiana Airlines",
         "iata": "OZ",
         "icao": "AAR",
@@ -511,6 +581,59 @@
             }
         },
         "slug": "atlantic-airways"
+    },
+    {
+        "name": "Austrian Airlines",
+        "iata": "OS",
+        "icao": "AUA",
+        "country": "AT",
+        "flag_carrier": true,
+        "website": "https://www.austrian.com",
+        "alliance": "Star Alliance",
+        "branding": {
+            "primary_color": "#d81824",
+            "colors": {
+                "icon": [
+                    "#d81e05"
+                ],
+                "logo": [
+                    "#d81e05",
+                    "#fff",
+                    "#fefefe",
+                    "#fdfdfd",
+                    "#fbfbfc",
+                    "#fafafa",
+                    "#f9f9f9",
+                    "#f8f8f8",
+                    "#f6f7f7",
+                    "#f5f5f6",
+                    "#f4f4f5",
+                    "#f3f3f3",
+                    "#f2f2f2",
+                    "#f0f1f1",
+                    "#eff0f0",
+                    "#eeeeef",
+                    "#ededee",
+                    "#ececec",
+                    "#eaebeb",
+                    "#e9eaea",
+                    "#e8e8e9",
+                    "#e7e7e8",
+                    "#e5e6e7",
+                    "#e4e5e6",
+                    "#e3e4e4",
+                    "#e2e2e3",
+                    "#e1e1e2",
+                    "#dfe0e1",
+                    "#dedfe0",
+                    "#dddedf",
+                    "#dcdddd",
+                    "#dadbdc",
+                    "#d9dadb"
+                ]
+            }
+        },
+        "slug": "austrian-airlines"
     },
     {
         "name": "avianca",
@@ -580,6 +703,76 @@
             }
         },
         "slug": "azerbaijan-airlines"
+    },
+    {
+        "name": "Azul",
+        "iata": "AD",
+        "icao": "AZU",
+        "country": "BR",
+        "website": "https://www.voeazul.com.br",
+        "branding": {
+            "primary_color": "#005baa",
+            "colors": {
+                "icon": [
+                    "#5061aa",
+                    "#8b328a",
+                    "#5d80c0",
+                    "#e94e29",
+                    "#d5262a",
+                    "#f6a022",
+                    "#6a95cd",
+                    "#306fb6",
+                    "#73c8dd",
+                    "#92c143",
+                    "#169bd6",
+                    "#199aa6",
+                    "#a5bfdf",
+                    "#3fb7af",
+                    "#ae2258",
+                    "#79c199",
+                    "#e5df1f",
+                    "#33bacf",
+                    "#6ca9db",
+                    "#de5097",
+                    "#604596",
+                    "#fad803",
+                    "#0bb8e7",
+                    "#41ad4c",
+                    "#e7b720",
+                    "#b9cf37"
+                ],
+                "logo": [
+                    "#041e42",
+                    "#5162aa",
+                    "#8c338a",
+                    "#5d81c1",
+                    "#e75027",
+                    "#d5292a",
+                    "#f6a124",
+                    "#6a95cd",
+                    "#3370b6",
+                    "#74c7dc",
+                    "#92c144",
+                    "#199bd6",
+                    "#1f9aa7",
+                    "#a5bfdf",
+                    "#3fb6af",
+                    "#af2458",
+                    "#7ac19a",
+                    "#e5df22",
+                    "#34bbd0",
+                    "#6ba8db",
+                    "#df5297",
+                    "#604696",
+                    "#f9d805",
+                    "#16b9e7",
+                    "#42ad4b",
+                    "#e6b722",
+                    "#b9cf36"
+                ]
+            }
+        },
+        "slug": "azul"
     },
     {
         "name": "Bamboo Airways",
@@ -696,6 +889,76 @@
         "slug": "cathay-pacific"
     },
     {
+        "name": "Cebu Pacific",
+        "iata": "5J",
+        "icao": "CEB",
+        "country": "PH",
+        "website": "https://www.cebupacificair.com",
+        "branding": {
+            "primary_color": "#0096d6",
+            "colors": {
+                "icon": [
+                    "#06a7e0",
+                    "#039482"
+                ],
+                "logo": [
+                    "#06a7e0",
+                    "#039482",
+                    "#2574bb"
+                ]
+            }
+        },
+        "slug": "cebu-pacific"
+    },
+    {
+        "name": "China Airlines",
+        "iata": "CI",
+        "icao": "CAL",
+        "country": "TW",
+        "website": "https://www.china-airlines.com",
+        "alliance": "SkyTeam",
+        "flag_carrier": true,
+        "branding": {
+            "primary_color": "#2b3088",
+            "colors": {
+                "icon": [
+                    "#be1d2d",
+                    "#fff",
+                    "#ee566c"
+                ],
+                "logo": [
+                    "#a12132",
+                    "#fff",
+                    "#1d294c",
+                    "#ca5766"
+                ]
+            }
+        },
+        "slug": "china-airlines"
+    },
+    {
+        "name": "China Eastern Airlines",
+        "iata": "MU",
+        "icao": "CES",
+        "country": "CN",
+        "website": "https://www.ceair.com",
+        "alliance": "SkyTeam",
+        "branding": {
+            "primary_color": "#1a4fa3",
+            "colors": {
+                "icon": [
+                    "#1b1d80",
+                    "#df0011"
+                ],
+                "logo": [
+                    "#1b1d80",
+                    "#df0011"
+                ]
+            }
+        },
+        "slug": "china-eastern-airlines"
+    },
+    {
         "name": "China Southern Airlines",
         "iata": "CZ",
         "icao": "CSN",
@@ -709,10 +972,40 @@
                     "#0093d0",
                     "#fff",
                     "#ed1b2f"
+                ],
+                "logo": [
+                    "#0093d0",
+                    "#fff",
+                    "#ed1b2f",
+                    "#002052"
+                ],
+                "tail": [
+                    "#0093d0",
+                    "#fff",
+                    "#ed1b2f"
                 ]
             }
         },
         "slug": "china-southern-airlines"
+    },
+    {
+        "name": "Condor",
+        "iata": "DE",
+        "icao": "CFG",
+        "country": "DE",
+        "website": "https://www.condor.com",
+        "branding": {
+            "primary_color": "#000000",
+            "colors": {
+                "icon": [
+                    "#000"
+                ],
+                "logo": [
+                    "#000"
+                ]
+            }
+        },
+        "slug": "condor"
     },
     {
         "name": "Copa Airlines",
@@ -749,10 +1042,56 @@
                 "icon": [
                     "#98002e",
                     "#e31837"
+                ],
+                "logo": [
+                    "#98002e",
+                    "#e31837",
+                    "#003d79"
                 ]
             }
         },
         "slug": "delta-air-lines"
+    },
+    {
+        "name": "easyJet",
+        "iata": "U2",
+        "icao": "EZY",
+        "country": "GB",
+        "website": "https://www.easyjet.com",
+        "branding": {
+            "primary_color": "#ff6600",
+            "colors": {
+                "icon": [
+                    "#ff6601",
+                    "#fff"
+                ],
+                "logo": [
+                    "#f60"
+                ]
+            }
+        },
+        "slug": "easyjet"
+    },
+    {
+        "name": "EgyptAir",
+        "iata": "MS",
+        "icao": "MSR",
+        "country": "EG",
+        "flag_carrier": true,
+        "website": "https://www.egyptair.com",
+        "alliance": "Star Alliance",
+        "branding": {
+            "primary_color": "#002855",
+            "colors": {
+                "icon": [
+                    "#00265d"
+                ],
+                "logo": [
+                    "#00265d"
+                ]
+            }
+        },
+        "slug": "egyptair"
     },
     {
         "name": "Emirates",
@@ -850,11 +1189,22 @@
         "website": "https://www.evaair.com",
         "alliance": "Star Alliance",
         "branding": {
-            "primary_color": "#409E54",
+            "primary_color": "#00a64f",
             "colors": {
                 "icon": [
-                    "#d06537",
-                    "#409e54"
+                    "#fff",
+                    "#00a64f",
+                    "#f0451c"
+                ],
+                "logo": [
+                    "#00a64f",
+                    "#fff",
+                    "#f0451c"
+                ],
+                "tail": [
+                    "#fff",
+                    "#00a64f",
+                    "#f0451c"
                 ]
             }
         },
@@ -939,6 +1289,40 @@
         "slug": "firefly"
     },
     {
+        "name": "Flybe",
+        "iata": "BE",
+        "icao": "BEE",
+        "country": "GB",
+        "website": "https://www.flybe.com",
+        "defunct": true,
+        "branding": {
+            "primary_color": "#5a3f99",
+            "colors": {
+                "logo": [
+                    "#5a3f99"
+                ]
+            }
+        },
+        "slug": "flybe"
+    },
+    {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB",
+        "country": "AE",
+        "website": "https://www.flydubai.com",
+        "branding": {
+            "primary_color": "#ff8200",
+            "colors": {
+                "logo": [
+                    "#ff8200",
+                    "#006496"
+                ]
+            }
+        },
+        "slug": "flydubai"
+    },
+    {
         "name": "flynas",
         "iata": "XY",
         "icao": "KNE",
@@ -956,6 +1340,25 @@
             }
         },
         "slug": "flynas"
+    },
+    {
+        "name": "Frontier Airlines",
+        "iata": "F9",
+        "icao": "FFT",
+        "country": "US",
+        "website": "https://www.flyfrontier.com",
+        "branding": {
+            "primary_color": "#008c44",
+            "colors": {
+                "icon": [
+                    "#026845"
+                ],
+                "logo": [
+                    "#026845"
+                ]
+            }
+        },
+        "slug": "frontier-airlines"
     },
     {
         "name": "Garuda Indonesia",
@@ -980,6 +1383,68 @@
             }
         },
         "slug": "garuda-indonesia"
+    },
+    {
+        "name": "GOL",
+        "iata": "G3",
+        "icao": "GLO",
+        "country": "BR",
+        "website": "https://www.voegol.com.br",
+        "branding": {
+            "primary_color": "#f58220",
+            "colors": {
+                "icon": [
+                    "#c1bfbc",
+                    "#ee7203"
+                ],
+                "logo": [
+                    "#37322d",
+                    "#ff7020"
+                ]
+            }
+        },
+        "slug": "gol"
+    },
+    {
+        "name": "Hainan Airlines",
+        "iata": "HU",
+        "icao": "CHH",
+        "country": "CN",
+        "website": "https://www.hainanairlines.com",
+        "branding": {
+            "primary_color": "#d71920",
+            "colors": {
+                "icon": [
+                    "#e60012"
+                ],
+                "logo": [
+                    "#e60012"
+                ]
+            }
+        },
+        "slug": "hainan-airlines"
+    },
+    {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL",
+        "country": "US",
+        "website": "https://www.hawaiianairlines.com",
+        "alliance": "oneworld",
+        "branding": {
+            "primary_color": "#4e2582",
+            "colors": {
+                "icon": [
+                    "#413691",
+                    "#ef3138"
+                ],
+                "logo": [
+                    "#413691",
+                    "#ef3138"
+                ]
+            }
+        },
+        "slug": "hawaiian-airlines"
     },
     {
         "name": "HK Express",
@@ -1059,6 +1524,25 @@
         "slug": "indigo"
     },
     {
+        "name": "ITA Airways",
+        "iata": "AZ",
+        "icao": "ITY",
+        "country": "IT",
+        "flag_carrier": true,
+        "website": "https://www.ita-airways.com",
+        "alliance": "Star Alliance",
+        "branding": {
+            "primary_color": "#006643",
+            "colors": {
+                "logo": [
+                    "#006e44",
+                    "#c2251b"
+                ]
+            }
+        },
+        "slug": "ita-airways"
+    },
+    {
         "name": "Japan Airlines",
         "iata": "JL",
         "icao": "JAL",
@@ -1079,6 +1563,25 @@
             }
         },
         "slug": "japan-airlines"
+    },
+    {
+        "name": "Jet2.com",
+        "iata": "LS",
+        "icao": "EXS",
+        "country": "GB",
+        "website": "https://www.jet2.com",
+        "branding": {
+            "primary_color": "#d71920",
+            "colors": {
+                "icon": [
+                    "#e2231a"
+                ],
+                "logo": [
+                    "#e2231a"
+                ]
+            }
+        },
+        "slug": "jet2com"
     },
     {
         "name": "JetBlue Airways",
@@ -1261,6 +1764,25 @@
         "slug": "latam-airlines"
     },
     {
+        "name": "Lion Air",
+        "iata": "JT",
+        "icao": "LNI",
+        "country": "ID",
+        "website": "https://www.lionair.co.id",
+        "branding": {
+            "primary_color": "#ed1b2f",
+            "colors": {
+                "icon": [
+                    "#fb0102"
+                ],
+                "logo": [
+                    "#fb0102"
+                ]
+            }
+        },
+        "slug": "lion-air"
+    },
+    {
         "name": "LOT Polish Airlines",
         "iata": "LO",
         "icao": "LOT",
@@ -1346,6 +1868,26 @@
         "slug": "myanmar-national-airlines"
     },
     {
+        "name": "Norwegian Air Shuttle",
+        "iata": "DY",
+        "icao": "NOZ",
+        "country": "NO",
+        "website": "https://www.norwegian.com",
+        "branding": {
+            "primary_color": "#d81939",
+            "colors": {
+                "icon": [
+                    "#e5212d",
+                    "#fff"
+                ],
+                "logo": [
+                    "#e6222e"
+                ]
+            }
+        },
+        "slug": "norwegian-air-shuttle"
+    },
+    {
         "name": "Oman Air",
         "iata": "WY",
         "icao": "OMA",
@@ -1403,6 +1945,25 @@
             }
         },
         "slug": "peach-aviation"
+    },
+    {
+        "name": "Pegasus Airlines",
+        "iata": "PC",
+        "icao": "PGT",
+        "country": "TR",
+        "website": "https://www.flypgs.com",
+        "branding": {
+            "primary_color": "#fdb913",
+            "colors": {
+                "icon": [
+                    "#dc2c2b"
+                ],
+                "logo": [
+                    "#e31f26"
+                ]
+            }
+        },
+        "slug": "pegasus-airlines"
     },
     {
         "name": "Philippine Airlines",
@@ -1655,6 +2216,23 @@
             }
         },
         "slug": "southwest-airlines"
+    },
+    {
+        "name": "Spirit Airlines",
+        "iata": "NK",
+        "icao": "NKS",
+        "country": "US",
+        "website": "https://www.spirit.com",
+        "defunct": true,
+        "branding": {
+            "primary_color": "#ffec00",
+            "colors": {
+                "logo": [
+                    "#231f20"
+                ]
+            }
+        },
+        "slug": "spirit-airlines"
     },
     {
         "name": "Starlux Airlines",
@@ -1957,6 +2535,96 @@
             }
         },
         "slug": "virgin-australia"
+    },
+    {
+        "name": "Viva",
+        "iata": "VB",
+        "icao": "VIV",
+        "country": "MX",
+        "website": "https://www.vivaaerobus.com",
+        "branding": {
+            "primary_color": "#00ae44",
+            "colors": {
+                "icon": [
+                    "#73c900"
+                ],
+                "logo": [
+                    "#00ae44",
+                    "#73c900"
+                ]
+            }
+        },
+        "slug": "viva"
+    },
+    {
+        "name": "Volaris",
+        "iata": "Y4",
+        "icao": "VOI",
+        "country": "MX",
+        "website": "https://www.volaris.com",
+        "branding": {
+            "primary_color": "#5b2d82",
+            "colors": {
+                "icon": [
+                    "#eeefef",
+                    "#b5d5f0",
+                    "#6cadde",
+                    "#d6a6cc",
+                    "#dae7a2",
+                    "#231f20",
+                    "#91268f",
+                    "#8dc63f"
+                ],
+                "logo": [
+                    "#231f20",
+                    "#eeefef",
+                    "#b5d5f0",
+                    "#6cadde",
+                    "#d6a6cc",
+                    "#dae7a2",
+                    "#91268f",
+                    "#8dc63f"
+                ]
+            }
+        },
+        "slug": "volaris"
+    },
+    {
+        "name": "Volotea",
+        "iata": "V7",
+        "icao": "VOE",
+        "country": "ES",
+        "website": "https://www.volotea.com",
+        "branding": {
+            "primary_color": "#ed164a",
+            "colors": {
+                "icon": [
+                    "#ed164a"
+                ],
+                "logo": [
+                    "#432129",
+                    "#ed164a"
+                ]
+            }
+        },
+        "slug": "volotea"
+    },
+    {
+        "name": "Vueling",
+        "iata": "VY",
+        "icao": "VLG",
+        "country": "ES",
+        "website": "https://www.vueling.com",
+        "branding": {
+            "primary_color": "#ffcc00",
+            "colors": {
+                "logo": [
+                    "#504f4e",
+                    "#fc0"
+                ]
+            }
+        },
+        "slug": "vueling"
     },
     {
         "name": "WestJet",
