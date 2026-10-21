@@ -26,9 +26,11 @@ const determineColorModel = (colors) => {
 
 const assetTypes = ['icon', 'logo', 'tail']
 
-const getAirlineAssets = (slug) => {
-    // In the dist folder, assets are at the same level
-    const airlineDir = join('assets', slug)
+// assetsDir defaults to the cwd-relative path used by the repo scripts; the
+// library passes an absolute path. No Node-only code runs at import time, so
+// toSlug stays importable from browser bundles.
+const getAirlineAssets = (slug, assetsDir = 'assets') => {
+    const airlineDir = join(assetsDir, slug)
 
     const assets = {}
     assetTypes.forEach((assetType) => {

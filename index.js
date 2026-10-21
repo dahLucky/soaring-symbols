@@ -37,7 +37,7 @@ function buildVariantPaths(slug, variant, assetsMeta) {
 }
 
 function resolveAssets(a) {
-    const assetsMeta = getAirlineAssets(a.slug)
+    const assetsMeta = getAirlineAssets(a.slug, join(__dirname, ASSETS_BASE))
     const out = {}
 
     for (const variant of ['icon', 'logo', 'tail']) {

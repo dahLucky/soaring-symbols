@@ -69,7 +69,8 @@
     "generate": "node scripts/generate.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier --write \"**/*.{js,ts}\""
+    "format": "prettier --write \"**/*.{js,ts}\"",
+    "release": "node scripts/release.js"
   },
   "lint-staged": {
     "*.js": [

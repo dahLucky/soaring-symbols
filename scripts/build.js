@@ -73,7 +73,7 @@ function transformToCJS(content) {
                 "const { toSlug, getAirlineAssets } = require('./utils')",
             )
             .replace(
-                /import\s+airlines\s+from\s+['"]\.\/airlines\.json['"]\s+assert\s*{\s*type:\s*['"]json['"]\s*}/,
+                /import\s+airlines\s+from\s+['"]\.\/airlines\.json['"]\s+(?:assert|with)\s*{\s*type:\s*['"]json['"]\s*}/,
                 "const airlines = require('./airlines.json')",
             )
             // Remove fileURLToPath import and __dirname setup since CJS has __dirname built-in
@@ -108,7 +108,10 @@ async function buildChecker() {
     // Strip the export keyword from validate functions (they become private helpers)
     // and remove the import line from svg-validator.js before bundling
     const inlinedChecks = checksRaw.replace(/^export function /gm, 'function ')
-    const checkerBody = checkerRaw.replace(/^import.*validators\.js.*\n/m, '')
+    const checkerBody = checkerRaw.replace(
+        /^import\s*{[^}]*}\s*from\s*['"][^'"]*validators\.js['"];?\n/m,
+        '',
+    )
     const bundledESM = inlinedChecks + '\n' + checkerBody
 
     // CJS: strip remaining export keywords, append module.exports
